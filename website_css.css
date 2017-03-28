@@ -1,0 +1,136 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+html {
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+.header {
+	position:relative;
+	top:100px;
+	padding:0;
+	margin: auto;
+	width: 90%;
+	height:200px;
+	line-height: 50px;
+	text-align: center;
+	background-image: url("white.png");
+	font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	font-variant:small-caps;
+}
+.name {
+	display:inline;
+	padding-top:75px;
+	color:black;
+}
+.desc {	
+	color:grey;
+	}
+.profImage {
+	display: inline;
+	float: right;
+	width:150px;
+	height:150px;
+	overflow:hidden;
+}
+.offset {
+	position:relative;
+	padding-top:50px;
+	text-align:center;
+}
+.hori {
+	font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	font-variant:small-caps;
+	line-height: 125%;
+	text-align:left;
+	padding:2%;
+	margin:5%;
+	background-image: url("white.png");
+	opacity: 0.8;
+}
+.right {
+	float:right;
+	width:35%;
+	margin-top: 150px;
+	height:150px;
+	margin-bottom: 150px;
+}
+.left {
+	margin-top: 150px;
+	float:left;
+	width:35%;
+	height:150px;
+}
+.ProjectsLabel {
+	height:90px;
+	line-height: 30px;
+	width: 90%;
+	text-align: center;
+	margin:auto;
+	padding 2%;
+	background-image: url("white.png");
+	overflow:visible;
+	font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	font-variant:small-caps;
+}
+.projects {
+	text-align: center;
+}
+.projectImg {
+height:200px;
+width:300px;
+align-self: center;
+overflow: hidden;
+}
+div.firstBG {
+	background-image: url("background.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding:0px;
+	margin:0;
+}
+div.secondBG {
+	background-image: url("computer.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height:100%;
+	padding:0px;
+	margin:0;
+}
+div.thirdBG {
+	background-image: url("background.png");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	width:100%;
+	height: 120px;
+	overflow: hidden;
+	padding:0px;
+	margin:0;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
